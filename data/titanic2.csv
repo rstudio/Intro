@@ -1,0 +1,17 @@
+"class","age","fate","male","female"
+"1st","adult","perished",118,4
+"1st","adult","survived",57,140
+"1st","child","perished",0,0
+"1st","child","survived",5,1
+"2nd","adult","perished",154,13
+"2nd","adult","survived",14,80
+"2nd","child","perished",0,0
+"2nd","child","survived",11,13
+"3rd","adult","perished",387,89
+"3rd","adult","survived",75,76
+"3rd","child","perished",35,17
+"3rd","child","survived",13,14
+"Crew","adult","perished",670,3
+"Crew","adult","survived",192,20
+"Crew","child","perished",0,0
+"Crew","child","survived",0,0
