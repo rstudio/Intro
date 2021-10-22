@@ -53,8 +53,8 @@ head(tidy)
 tidy <- dcast(tidy, class + age + gender ~ fate, 
   value.var = "value")
 head(tidy)
-titanic$rate <- round(titanic$survived / 
-  (titanic$survived + titanic$perished), 2)
+tidy$rate <- round(tidy$survived / 
+  (tidy$survived + tidy$perished), 2)
 head(tidy)
 # ------------------------------------------
 
