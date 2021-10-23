@@ -1,0 +1,26 @@
+{
+    "id": "7292CACA",
+    "path": "~/repos/info-523/Intro/code/01-Reshape.R",
+    "project_path": "code/01-Reshape.R",
+    "type": "r_source",
+    "hash": "1620230497",
+    "contents": "",
+    "dirty": false,
+    "created": 1635020482395.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "30,37",
+        "scrollLine": "23"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1635025798,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1635025798388,
+    "read_only": false,
+    "read_only_alternatives": []
+}

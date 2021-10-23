@@ -1,0 +1,24 @@
+{
+    "id": "0C5BE5F7",
+    "path": "~/repos/info-523/Intro/data/pew.csv",
+    "project_path": "data/pew.csv",
+    "type": "text",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1635020952655.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1635020324,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1635020324,
+    "read_only": false,
+    "read_only_alternatives": []
+}
