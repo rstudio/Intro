@@ -1,4 +1,5 @@
 ### 01-Reshape.R
+#Shane Freeborn - Info 523
 # install.packages("reshape2")
 # library(reshape2)
 
@@ -76,3 +77,6 @@ tidy2 <- readRDS("tidy.rds")
 
 write.csv(tidy, file = bzfile("tidy.csv.bz2"), row.names = FALSE)
 tidy3 <- read.csv("tidy.csv.bz2")
+
+
+data_error <- read.csv(this will throw and error!)
