@@ -53,8 +53,8 @@ head(tidy)
 tidy <- dcast(tidy, class + age + gender ~ fate, 
   value.var = "value")
 head(tidy)
-titanic$rate <- round(titanic$survived / 
-  (titanic$survived + titanic$perished), 2)
+titanic2$fate <- round(tidy$survived / 
+  (tidy2$survived + tidy3$perished), 2)
 head(tidy)
 # ------------------------------------------
 
@@ -76,3 +76,4 @@ tidy2 <- readRDS("tidy.rds")
 
 write.csv(tidy, file = bzfile("tidy.csv.bz2"), row.names = FALSE)
 tidy3 <- read.csv("tidy.csv.bz2")
+
