@@ -6,7 +6,7 @@
 1 * 2
 4 ^ 2
 
-a <- 1
+a <- 6
 b <- 2
 a + b
 A <- 3
@@ -83,7 +83,7 @@ class("hello")
 
 "hello" + "world"
 nchar("hello")
-paste("hello", "world")
+past("hello", "world")
 
 # Warm up
 # ---------
