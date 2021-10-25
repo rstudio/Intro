@@ -36,7 +36,7 @@ factorial(foo)
 
 foo
 rm(foo)
-foo
+#foo
 
 pi
 pi <- 1
@@ -81,7 +81,7 @@ class(0.00001)
 "hello"
 class("hello")
 
-"hello" + "world"
+#"hello" + "world"
 nchar("hello")
 paste("hello", "world")
 
@@ -139,6 +139,7 @@ nvec
 
 nlst <- list(one = 1, two = 2, many = c(3, 4, 5))
 nlst
+#removed info that was here
 
 ndf <- data.frame(numbers = c(1, 2, 3), 
           letters = c("R","S","T"), 
