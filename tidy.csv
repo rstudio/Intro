@@ -1,0 +1,17 @@
+"class","age","gender","perished","survived"
+"1st","adult","male",118,57
+"1st","adult","female",4,140
+"1st","child","male",0,5
+"1st","child","female",0,1
+"2nd","adult","male",154,14
+"2nd","adult","female",13,80
+"2nd","child","male",0,11
+"2nd","child","female",0,13
+"3rd","adult","male",387,75
+"3rd","adult","female",89,76
+"3rd","child","male",35,13
+"3rd","child","female",17,14
+"Crew","adult","male",670,192
+"Crew","adult","female",3,20
+"Crew","child","male",0,0
+"Crew","child","female",0,0
