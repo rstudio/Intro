@@ -1,10 +1,10 @@
 ## 01-Structures.R
-# Code from 01-structures
+# Code from 01-structure
 
-5 + 5
+5sdf + 5sdfsdfopisdfupoiu
 4 - 1
-1 * 2
-4 ^ 2
+1 * 2dgdsfgdfgfd
+4 ^ 2fdgdfgdfgdfgdfg
 
 a <- 1
 b <- 2
