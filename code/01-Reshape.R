@@ -24,6 +24,8 @@ tidy <- melt(raw, id = "religion",
 
 raw <- read.delim("data/weather.txt", check.names = F, na.strings = ".")
 
+hshadjkajhdk
+
 # Your Turn
 # ------------------------------------------
 raw <- melt(raw, 
