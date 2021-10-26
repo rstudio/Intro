@@ -6,16 +6,23 @@
 
 # Values in column names 
 
-raw <- read.csv("data/pew.csv", check.names = F)
+raw <- read.csv("/Users/doganfamily/Dropbox/Personal/EDL/PhD/INFO 523/Intro/data/pew.csv", check.names = F)
 
 head(raw)
 
 library(reshape2)
+library(tidyverse)
 tidy <- melt(raw, id = "religion")
 
 head(raw)
 head(tidy)
+Tidy_temp <- raw %>% pivot_longer(
+  cols = c("<$10k","$10-20k","$20-30k","$30-40k","$40-50k","$50-75k","$75-100k","$100-150k",">150k"),
+  names_to = "religion",
+  values_to= "Money"
+)
 
+head(Tidy_temp)
 names(tidy) <- c("religion", "income", "n")
 tidy <- melt(raw, id = "religion", 
   variable.name = "income", value.name = "n")
@@ -24,7 +31,7 @@ tidy <- melt(raw, id = "religion",
 
 raw <- read.delim("data/weather.txt", check.names = F, na.strings = ".")
 
-hshadjkajhdk
+
 
 # Your Turn
 # ------------------------------------------
